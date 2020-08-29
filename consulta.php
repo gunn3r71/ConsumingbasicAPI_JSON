@@ -9,7 +9,7 @@
       $data = json_decode(file_get_contents($url),true);
 
       echo "
-      <table class='table'>
+      <table class='table' border=1>
       <thead>
         <tr>
           <th scope='col'>Cep</th>
@@ -30,7 +30,7 @@
       ";
     } else{
       echo "
-      <table class='table'>
+      <table class='table' border=1>
       <thead>
         <tr>
           <th scope='col'>Cep</th>
@@ -56,7 +56,7 @@
     }
   } else{
     echo "
-    <table class='table'>
+    <table class='table' border=1>
     <thead>
       <tr>
         <th scope='col'>Cep</th>
