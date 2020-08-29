@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.container-cfg{
+    width: 30%;
+    height: 40%;
+    margin-top: 25%;
+}
+.container-tbl{
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+}
+#btn{
+    text-align: center;
+}
